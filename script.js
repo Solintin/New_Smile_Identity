@@ -5,4 +5,3 @@ navButton.addEventListener("click", () => {
   getNav.classList.toggle("open");
 });
 
-AOS.init();

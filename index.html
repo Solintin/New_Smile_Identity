@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="icon" type="image/png" href="/assets/favicon.svg" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -196,28 +195,35 @@
     <!-- REPORT1 -->
     <div class="report_bg">
       <div class="report_bg_left">
-        <div class="">
-          <h1 class="report_header">A sneak peek of the report</h1>
-          <p class="report_text">
-            Fraud attempts increased by 30% in the first half of 2022
-          </p>
+          <div class="">
+            <h1 class="report_header">A sneak peek of the report</h1>
+            <p class="report_text">
+              Fraud attempts increased by 30% in the first half of 2022
+            </p>
         </div>
       </div>
+
       <div class="report_bg_right">
         <div class="">
-          <div class="">
-            <p class="header_tag">
-              Fraudulent attempts caught by Smile Identity
-            </p>
-            <p class="sub_tag">% of Total KYC Checks</p>
-            <img src="/assets/barchart.svg" width="513" alt="" />
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-sine"
+          >
+            <div class="">
+              <p class="header_tag">
+                Fraudulent attempts caught by Smile Identity
+              </p>
+              <p class="sub_tag">% of Total KYC Checks</p>
+              <img src="/assets/barchart.svg" width="513" alt="" />
 
-            <p class="sub_info">
-              Note on chart and data set: This report uses anonymized data
-              collected from transactions on Smile Identity. Fraudulent KYC
-              checks include biometric Fraud and data validation errors when
-              checking against the government ID database
-            </p>
+              <p class="sub_info">
+                Note on chart and data set: This report uses anonymized data
+                collected from transactions on Smile Identity. Fraudulent KYC
+                checks include biometric Fraud and data validation errors when
+                checking against the government ID database
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -234,13 +240,17 @@
           </p>
         </div>
       </div>
+
       <div class="report_bg_right">
         <div class="">
-          <div class="">
-         
-            <img src="/assets/info.svg" alt="" />
-
-      
+          <div
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-sine"
+          >
+            <div class="">
+              <img src="/assets/info.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -257,13 +267,17 @@
           </p>
         </div>
       </div>
+
       <div class="report_bg_right">
         <div class="">
-          <div class="">
-       
-            <img src="/assets/woman.svg" alt="" />
-
-     
+          <div
+            data-aos="fade-left"
+            data-aos-duration="2500"
+            data-aos-easing="ease-in-sine"
+          >
+            <div class="">
+              <img src="/assets/woman.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -340,5 +354,9 @@
     </section>
     <!-- FOOTER -->
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
